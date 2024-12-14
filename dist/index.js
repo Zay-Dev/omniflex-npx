@@ -26,4 +26,4 @@ const mode = (() => {
     return findArg(values) || '';
 })();
 const projectName = args.filter(Boolean)[0];
-execute(projectName, branchName, mode);
+execute(projectName, `${branchName}/latest`, mode);

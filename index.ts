@@ -37,4 +37,4 @@ const mode = (() => {
 
 const projectName = args.filter(Boolean)[0];
 
-execute(projectName, branchName, mode);
+execute(projectName, `${branchName}/latest`, mode);
