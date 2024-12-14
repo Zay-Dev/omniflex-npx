@@ -1,0 +1,20 @@
+{
+  "name": "omniflex-npx",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsc && tsc-alias",
+    "start": "node dist/index.js"
+  },
+  "bin": "./dist/index.js",
+  "author": "Zay Lau <license@omniflex.io>",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "tsc-alias": "^1.8.10"
+  }
+}
